@@ -1,0 +1,1 @@
+import Link from 'next/link';export default function RecoveryLink(){return <div className="fixed bottom-5 left-1/2 -translate-x-1/2 z-50"><Link href="/forgot-password" className="text-sm font-semibold text-blue-600 bg-white border border-slate-200 shadow-sm rounded-full px-4 py-2">Forgot password?</Link></div>}
