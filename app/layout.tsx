@@ -1,3 +1,1 @@
-import "./globals.css";
-export const metadata={title:"PLS — Personal Learning System",description:"Personal Learning System"};
-export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="vi"><body>{children}</body></html>}
+import "./globals.css";import RecoveryLink from "@/components/RecoveryLink";export const metadata={title:"PLS — Personal Learning System",description:"Personal Learning System"};export default function RootLayout({children}:{children:React.ReactNode}){return <html lang="vi"><body>{children}<RecoveryLink/></body></html>}
