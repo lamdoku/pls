@@ -1,0 +1,1 @@
+import Nav from './Nav';export default function Shell({role,children}:{role:string,children:React.ReactNode}){return <div className="flex min-h-screen"><Nav role={role}/><main className="flex-1 p-8 max-w-[1600px]">{children}</main></div>}
