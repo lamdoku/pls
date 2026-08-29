@@ -1,0 +1,2 @@
+import Shell from '@/components/Shell';
+export default function Page(){return <Shell role="admin"><h1 className="text-3xl font-black">Curriculum Studio v2</h1><p className="muted mt-2">Career relationships, skills, topics, language systems and proficiency.</p></Shell>}
